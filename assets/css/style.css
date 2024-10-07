@@ -1,0 +1,115 @@
+body{
+    color: #ffffff;
+    background-color: #192436;
+    font-family: "Cinzel", serif;
+    font-size: 22px;
+}
+p{
+    font-size: 20px;
+}
+li{
+    list-style-type: circle;
+}
+body header nav{
+    background:linear-gradient(90deg, rgba(36,46,57,1) 0%, rgb(99, 78, 36) 25%, rgb(125, 100, 49) 100%);
+}
+#logo{
+    font-size: 30px;
+    color: #fff;
+}
+#logo img{
+    border-radius: 15px;
+}
+#offcanvasNavbar{
+    background:linear-gradient(90deg, rgba(36,46,57,1) 0%, #634e24 25%, rgb(99, 78, 36) 75%, rgba(36,46,57,1) 100%) ;
+}
+#offcanvasNavbar div h5{
+    color: #fff;
+}
+#offcanvasNavbar div ul{
+    margin-top: 10px;
+    gap: 8px;
+}
+#offcanvasNavbar div ul li button{
+    width: 100%;
+}
+#offcanvasNavbar div ul li button a{
+    color: #fff;
+}
+#links img{
+    width: 55%;
+}  
+section #links{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#links ul li{
+    list-style-type: none;
+    font-size: 55px;
+}
+#links ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 40px;
+    margin-left: 90px;
+    padding-left: 0px;
+}
+section div ul li button {
+    color: #fff;
+    width:350px;
+    height:75px;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.35);
+    transition: transform 0.6s ease-in-out;  
+    transition: box-shadow 0.2s ease-in-out;
+}
+.btn-links:hover{
+    background:  rgb(131, 104, 48);
+    border: 10px solid black;
+            transform: scale(1.1); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+.btn-links{
+    background:linear-gradient(90deg, rgb(66, 66, 67) 0%, rgb(99, 78, 36) 25%, rgb(99, 78, 36) 75%, rgba(66, 66, 67) 100%) ;
+    border-radius: 30px;
+    border: 0px;
+}
+i{
+    color: white;
+}
+#segunda{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(90deg, rgb(66, 66, 67) 0%, rgb(99, 78, 36) 25%, rgb(99, 78, 36) 75%, rgba(66, 66, 67) 100%) ;
+}
+#segunda div{
+    background-color: #192436;
+    margin: 0;
+    padding: 0;
+}
+#terceira{
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(90deg, rgb(66, 66, 67) 0%, rgb(99, 78, 36) 25%, rgb(99, 78, 36) 75%, rgba(66, 66, 67) 100%) ;
+}
+#terceira div{
+    background-color: #192436;
+    margin: 0;
+    padding: 0;
+}
+#terceira div ul li{
+    list-style-type: none;
+}
+#terceira div button{
+    width:250px;
+    height:60px;
+}
