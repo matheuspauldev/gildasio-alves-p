@@ -3,12 +3,13 @@
         color: #ffffff;
         background-color: #192436;
         font-family: "Cinzel", serif;
-        font-size: 22px;
+        font-size: 10px;
     }
     p{
-        font-size: 20px;
+        font-size: 17px;
     }
     li{
+        font-size: 17px;
         list-style-type: circle;
     }
     body header nav{
@@ -131,6 +132,7 @@
     }
     li{
         list-style-type: circle;
+        font-size: 20px;
     }
     body header nav{
         background:linear-gradient(90deg, rgba(36,46,57,1) 0%, rgb(99, 78, 36) 25%, rgb(125, 100, 49) 100%);
