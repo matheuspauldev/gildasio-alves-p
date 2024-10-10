@@ -22,20 +22,23 @@
     #logo img{
         border-radius: 15px;
     }
-    #offcanvasNavbar{
+    #offcanvasDarkNavbar{
         background:linear-gradient(90deg, rgba(36,46,57,1) 0%, #634e24 25%, rgb(99, 78, 36) 75%, rgba(36,46,57,1) 100%) ;
     }
-    #offcanvasNavbar div h5{
+    #offcanvasDarkNavbar li{
+        list-style-type: none ;
+    }
+    #offcanvasDarkNavbar div h5{
         color: #fff;
     }
-    #offcanvasNavbar div ul{
+    #offcanvasDarkNavbar div ul{
         margin-top: 10px;
         gap: 8px;
     }
-    #offcanvasNavbar div ul li button{
+    #offcanvasDarkNavbar div ul li button{
         width: 100%;
     }
-    #offcanvasNavbar div ul li button a{
+    #offcanvasDarkNavbar div ul li button a{
         color: #fff;
     }
     #links img{
@@ -142,20 +145,23 @@
         font-size: 30px;
         color: #fff;
     }
-    #offcanvasNavbar{
+    #offcanvasDarkNavbar{
         background:linear-gradient(90deg, rgba(36,46,57,1) 0%, #634e24 25%, rgb(99, 78, 36) 75%, rgba(36,46,57,1) 100%) ;
     }
-    #offcanvasNavbar div h5{
+    #offcanvasDarkNavbar li{
+        list-style-type: none ;
+    }
+    #offcanvasDarkNavbar div h5{
         color: #fff;
     }
-    #offcanvasNavbar div ul{
+    #offcanvasDarkNavbar div ul{
         margin-top: 10px;
         gap: 8px;
     }
-    #offcanvasNavbar div ul li button{
+    #offcanvasDarkNavbar div ul li button{
         width: 100%;
     }
-    #offcanvasNavbar div ul li button a{
+    #offcanvasDarkNavbar div ul li button a{
         color: #fff;
     }
     #primeira div{
